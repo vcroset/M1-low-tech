@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/boostrap_reduce.css">
+    <title>Low Tech</title>
+</head>
+
+<body>
+    <div id="app">
+        <!-- navbar -->
+        <nav class="navbar" style="background-color: #1A1A1A;">
+            <a class="navbar-brand" href="#" style="color:white; margin-left: 15px;">Comment adapter la low-tech au monde du numérique ?</a>
+        </nav>
+
+        <!-- end navbar -->
+
+        <!-- main section -->
+        <div class="mt-5 text-center">
+            <h4>Article du 11/02/2022 par Yann Bataillard - Valentin Croset</h4>
+            <h1>VALORISER LA CHALEUR FATALE INFORMATIQUE</h1>
+            <h5 style="margin-left: 20%; margin-right: 20%;">Le radiateur-ordinateur chauffe gratuitement et
+                écologiquement des bâtiments grâce à la chaleur fatale informatique, en embarquant des microprocesseurs
+                haute-performance. Ces derniers, en effectuant des opérations informatiques complexes, dégagent de la
+                chaleur qui est directement dissipée pour chauffer des appartements, bâtiments publics, bureaux.</h5>
+            <div class="mt-1">
+                <span class="badge" style="color: white; background-color: black;">Low-Tech</span>
+                <span class="badge" style="color: white; background-color: black;">Climat</span>
+                <span class="badge" style="color: white; background-color: black;">Environnement</span>
+            </div>
+            <p>Temps de lecture : <span id="readTime"></span> minutes</p>
+            <img class="mt-3 img-fluid" style="width: 60%; border-radius: 5px;" src="img/radiateur-min.jpg">
+
+            <div id="article">
+                <h4 class="mt-2">Le cas low-tech</h4>
+                <div class="container" style="width: 60%; text-align:justify;">
+                    <p>Les low-tech, c’est s’intéresser tant aux aspects techniques qu’aux potentiels environnementaux
+                        et économiques.
+                        C’est aussi observer les voies pertinentes et cohérentes pour leur diffusion.
+                        Qalway propose des solutions à très haute efficacité énergétique, pour consommer moins,
+                        mais surtout consommer mieux grâce à des produits d’énergie de récupération.
+                        On ne peut pas réellement parler de low tech, car il y a une forte R&D sur des produits comme
+                        ça.
+                        Mais on peut parler de R&D avec une valeur écologique et responsable qui avec une meilleure
+                        utilisation des ressources permettrait de parler low-tech...
+                    </p>
+                    <p>
+                        La société apporte une réponse aux territoires engagés qui agissent pour la transition 
+                        énergétique, en valorisant la chaleur fatale informatique par des systèmes simples et 
+                        modulables. Les solutions permettent ainsi de répondre aux enjeux 
+                        environnementaux et aux objectifs fixés par les différents plans stratégiques.                      
+                    </p>
+                    <p>
+                        La transition énergétique d’un territoire s’opère par le biais de multiples solutions. Qalway répond 
+                        à des objectifs de transition en aidant à
+                        réduire les consommations énergétiques et à baisser les émissions de gaz à effet de serre.  
+                    </p>
+                    <p>
+                        La société propose une chaleur renouvelable sans charge de fonctionnement et disponible sans intermittence en fonction de vos besoins et de vos contraintes techniques.
+                    </p>
+                    <p>
+                        Réponse à la question par les fondateurs : Fait-il valoir des avantages environnementaux pour ses clients ?
+                    </p>
+                    <p>
+                        Réponse : Bien sûr ! Le recours à la chaleur fatale informatique, de la chaleur 100% renouvelable, est reconnu dans les réglementations, à commencer par la RE2020, grâce à deux Titres V Système très performants. A titre d’exemple aussi, nous sommes également reconnus dans le cadre du décret tertiaire ou bien comme solution contribuant au verdissement des réseaux de chaleur.
+                    </p>
+                    <p>
+                        La RE2020 est réglementation environnementale plus ambitieuse et exigeante pour la filière de la construction. 
+Le chauffage propose une solution dite "écologique" qui favorise une démarche low-Tech grâce à une utilisation de la puissance de calcul pour faire de la chaleur et réduire les calculs inutiles utilisés en abondance par les industriels en sélectionnant les clients.
+                    </p>
+                </div>
+                <div class="container" style="width: 60%; text-align:justify;">
+                    <p>Liens externes : </p>
+                    <a target="_blank" href="https://qalway.com/fr/">Qalway</a>
+                    <a target="_blank" href="https://fr.wikipedia.org/wiki/Low-tech">Low-tech</a>
+                    <a target="_blank" href="https://lowtechnation.com/">Lowtechnation</a>
+                    <a target="_blank" href="https://www.ecologie.gouv.fr/reglementation-environnementale-re2020">re2020</a>                    
+                </div>
+            </div>
+        </div>
+        <!-- end main section -->
+
+        <!-- footer -->
+        <div class="card" style="width: 100%; border-radius: 0px; background-color: #1A1A1A; color: white;">
+            <div class="card-body">
+             
+                <div class="row">
+                    <div class="col-3" class="text-center">
+                        <h5>Low Tech Magazine</h5>
+                    </div>
+                    <div class="col-9" class="text-center">
+                        <p>Retrouvez nos news sur les réseaux sociaux !</p>
+                        <p>Nous sommes sur Facebook, Twitter, Instagram, Youtube.</p>
+                    </div>
+                </div>
+              
+            </div>
+            <!-- end footer -->
+        </div>
+</body>
+<script src="lib/main.js"></script>
+<script>
+    document.getElementById('readTime').innerHTML = readTime(document.getElementById('article').innerText)
+</script>
+
+</html>
